@@ -1,3 +1,4 @@
+<img width="641" height="703" alt="Screenshot 2025-06-19 221916" src="https://github.com/user-attachments/assets/c0017639-62c6-4135-99e8-3a76e86959f1" />
 # 🧠 AI Image Authentication System
 
 An advanced AI-based system that detects whether an image is **Authentic** or **Tampered** using Machine Learning and **LIME Explainable AI**.
