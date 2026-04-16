@@ -114,5 +114,3 @@ ImageAuth/
 B.Tech CSE Student
 Passionate about AI, Security & Software Development
 ---
-assets/original.png
-assets/lime_output.png
