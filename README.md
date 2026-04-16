@@ -1,5 +1,9 @@
-<img width="641" height="703" alt="Screenshot 2025-06-19 221916" src="https://github.com/user-attachments/assets/c0017639-62c6-4135-99e8-3a76e86959f1" />
 # 🧠 AI Image Authentication System
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![AI](https://img.shields.io/badge/AI-Machine%20Learning-green)
+![Explainable AI](https://img.shields.io/badge/LIME-Explainable%20AI-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 An advanced AI-based system that detects whether an image is **Authentic** or **Tampered** using Machine Learning and **LIME Explainable AI**.
 
@@ -17,15 +21,17 @@ An advanced AI-based system that detects whether an image is **Authentic** or **
 
 ---
 
-## 🧪 Technologies Used
+## 📸 Screenshots
 
-* Python 🐍
-* OpenCV
-* Scikit-learn
-* NumPy
-* LIME (Explainable AI)
-* Tkinter (GUI)
-* PIL (Image Processing)
+### 🖼️ Original Image
+
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/0c2c991c-d2b1-42a1-9144-4d69b98ff161" />
+
+<img width="497" height="334" alt="image" src="https://github.com/user-attachments/assets/130bed90-2ecc-4bf1-b906-727b2f3f4424" />
+
+### 🧠 LIME Explanation (Tampered Regions Highlighted)
+
+<img width="412" height="585" alt="image" src="https://github.com/user-attachments/assets/1cc9af98-6122-4519-9cd1-e99c6c9ffa0b" />
 
 ---
 
@@ -41,18 +47,20 @@ An advanced AI-based system that detects whether an image is **Authentic** or **
 5. System:
 
    * Highlights important regions
-   * Detects noise level
+   * Detects noise percentage
    * Checks metadata
 
 ---
 
-## 📸 Output Example
+## 🧪 Technologies Used
 
-* Original Image
-* LIME Heatmap (Highlighted Regions)
-* Prediction + Confidence
-* Noise Percentage (only if tampered)
-* Explanation Text
+* Python 🐍
+* OpenCV
+* Scikit-learn
+* NumPy
+* LIME (Explainable AI)
+* Tkinter (GUI)
+* PIL (Image Processing)
 
 ---
 
@@ -80,17 +88,17 @@ python gui_app.py
 ```
 ImageAuth/
 │
-├── dataset/                # Training data
-├── train_model.py          # Model training
-├── predict.py              # Prediction logic
-├── gui_app.py              # Main GUI application
-├── explain.py              # LIME explanation
-├── image_auth_model.pkl    # Trained model
+├── dataset/                
+├── train_model.py          
+├── predict.py              
+├── gui_app.py              
+├── explain.py              
+├── image_auth_model.pkl    
 ```
 
 ---
 
-## 💡 Unique Features (What Makes This Project Different)
+## 💡 What Makes This Project Unique
 
 ✔ Explainable AI (not just prediction)
 ✔ Noise % detection for tampering analysis
@@ -113,5 +121,9 @@ ImageAuth/
 
 **Aryan Dhiman**
 B.Tech CSE Student
-Passionate about AI, Security & Software Development
+
 ---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
